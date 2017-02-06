@@ -9,9 +9,10 @@
   <remote alias="repo" fetch="http://github.com/openembedded" name="oe"/>
   <remote alias="repo" fetch="http://git.toradex.com" name="trdx"/>
   <remote alias="repo" fetch="http://git.yoctoproject.org" name="yocto"/>
-  
+  <remote alias="repo" fetch="ssh://git@github.com/hostmobility" name="hm"/>
+
   <default sync-j="4"/>
-  
+
   <project name="bitbake.git" path="layers/openembedded-core/bitbake" remote="oe" revision="b993d96203541cd2919d688559ab802078a7a506" upstream="1.28"/>
   <project name="meta-angstrom.git" path="layers/meta-angstrom" remote="githa" revision="7f2eec75fd20b672221ff071d121fa9ea2e1e6ea" upstream="angstrom-v2015.12-yocto2.0"/>
   <project name="meta-browser.git" path="layers/meta-browser" remote="githo" revision="e114d625d4bd23a52cc1108a45d96ffd8dc0ab7f" upstream="jethro"/>
@@ -24,10 +25,10 @@
   <project name="meta-openembedded.git" path="layers/meta-openembedded" remote="oe" revision="2ea8d7f54a061e902657c4f8ea1f7f7c25c6c4e1" upstream="jethro"/>
   <project name="meta-qt5.git" path="layers/meta-qt5" remote="githq" revision="a8d4dafdfde812e403315d53b2a981d12bd49f04" upstream="jethro-next"/>
   <project name="meta-toradex-bsp-common.git" path="layers/meta-toradex-bsp-common" remote="trdx" revision="77b0c48863b6194628f2ff4c633469bb84f549c3" upstream="jethro"/>
-  <project name="meta-toradex-demos.git" path="layers/meta-toradex-demos" remote="trdx" revision="32d1925873e89403c9ff487548945d0983e76f20" upstream="jethro">
-    <copyfile dest="export" src="buildconf/export"/>
-  </project>
+  <project name="meta-toradex-demos.git" path="layers/meta-toradex-demos" remote="trdx" revision="32d1925873e89403c9ff487548945d0983e76f20" upstream="jethro"/>
   <project name="meta-toradex-nxp.git" path="layers/meta-toradex-nxp" remote="trdx" revision="18a87021f079a84171885c6e816fb8800ce3b974" upstream="jethro"/>
   <project name="meta-toradex-tegra.git" path="layers/meta-toradex-tegra" remote="trdx" revision="ebb0b6b7508efbcf1f57dc014d30f4414d56d5dc" upstream="jethro"/>
   <project name="openembedded-core.git" path="layers/openembedded-core" remote="oe" revision="d39e7ca717b67ad9f2f78b83d90d91e410e52965" upstream="jethro"/>
+  <project name="meta-hm.git" path="layers/meta-hm" remote="hm" revision="b4543896b4ef68c4c1aa989564a8f38866192ccc" upstream="jethro"> <copyfile dest="export" src="buildconf/export"/>
+  </project>
 </manifest>
