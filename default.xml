@@ -29,6 +29,6 @@
   <project name="meta-toradex-nxp.git" path="layers/meta-toradex-nxp" remote="trdx" revision="18a87021f079a84171885c6e816fb8800ce3b974" upstream="jethro"/>
   <project name="meta-toradex-tegra.git" path="layers/meta-toradex-tegra" remote="trdx" revision="ebb0b6b7508efbcf1f57dc014d30f4414d56d5dc" upstream="jethro"/>
   <project name="openembedded-core.git" path="layers/openembedded-core" remote="oe" revision="d39e7ca717b67ad9f2f78b83d90d91e410e52965" upstream="jethro"/>
-  <project name="meta-hm.git" path="layers/meta-hm" remote="hm" revision="b4543896b4ef68c4c1aa989564a8f38866192ccc" upstream="jethro"> <copyfile dest="export" src="buildconf/export"/>
+  <project name="meta-hm.git" path="layers/meta-hm" remote="hm" revision="d7cc3d74f4b8c3aa3c4cf6971bd2eb8027d7918d" upstream="jethro"> <copyfile dest="export" src="buildconf/export"/>
   </project>
 </manifest>
