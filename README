@@ -15,7 +15,7 @@ Create a directory for your oe-core setup to live in and clone the meta informat
 
   mkdir oe-core
   cd oe-core
-  repo init -u http://git.toradex.com/toradex-bsp-platform.git -b master
+  repo init -u https://github.com/hostmobility/hostmobility-bsp-platform.git -b master
   repo sync
 
 Optionally create a development branch in all git repositories
