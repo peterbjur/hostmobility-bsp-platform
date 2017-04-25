@@ -7,7 +7,7 @@
   <remote alias="repo" fetch="http://github.com/watatuki" name="githt"/>
   <remote alias="repo" fetch="http://git.linaro.org/git-ro/openembedded" name="linaro"/>
   <remote alias="repo" fetch="http://github.com/openembedded" name="oe"/>
-  <remote alias="repo" fetch="http://git.toradex.com" name="trdx"/>
+  <remote alias="repo" fetch="http://git.toradex.com" name="tdx"/>
   <remote alias="repo" fetch="https://git.yoctoproject.org/git" name="yocto"/>
   <remote alias="repo" fetch="http://github.com/hostmobility" name="hm"/>
 
