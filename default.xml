@@ -11,7 +11,7 @@
   <remote alias="repo" fetch="http://git.toradex.com" name="tdx"/>
   <remote alias="repo" fetch="https://git.yoctoproject.org/git" name="yocto"/>
   <remote alias="repo" fetch="http://github.com/viktorfriberg/" name="hm"/>
-  <remote alias="repo" fetch="ssh://git@github.com/hostmobility/" name="hmssh"/>
+  <remote alias="repo" fetch="ssh://git@github.com/viktorfriberg/" name="hmssh"/>
 
   <default sync-j="4"/>
   <project name="bitbake.git" path="layers/openembedded-core/bitbake" remote="oe" revision="32a249cf33f79b579a2cf6224c7d23cdb20d376f" upstream="1.32"/>
